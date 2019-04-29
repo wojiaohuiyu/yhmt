@@ -1,15 +1,21 @@
 <template>
   <div>
     <TopNav />
+    <Search />
+    <MainNav />
   </div>
 </template>
 
 <script>
-import TopNav from './TopNav.vue'
+import TopNav from 'public/TopNav/index.vue'
+import Search from 'public/Search/index.vue'
+import MainNav from 'public/MainNav/index.vue'
 
 export default {
   components: {
-    TopNav
+    TopNav,
+    Search,
+    MainNav
   }
 }
 </script>
